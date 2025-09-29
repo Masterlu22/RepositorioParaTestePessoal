@@ -1,6 +1,13 @@
 public class Calculadora{
     public static boolean verificaValor(double numero){
-        return false;
+        if(numero >= 0){
+
+            return true;
+        }
+        else{
+            return false;
+        }
+
     }
 
 }

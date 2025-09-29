@@ -6,7 +6,14 @@ public class Teste {
     //qualquer entrada retorne false
 
     @Test
-    public void verificaSoma(){
+    public void verifica(){
         assertFalse(Calculadora.verificaValor(5));
+    }
+
+    //retorn true quando o número for positivo
+    @Test
+    public void verificaSinal(){
+        assertTrue(Calculadora.verificaValor(5));
+        assertFalse(Calculadora.verificaValor(-2));
     }
 }
