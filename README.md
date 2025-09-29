@@ -4,5 +4,3 @@
 
 * É  efetuado o teste de uma função simples apenas para verificar se ela oferece os retornos corretos
 
-
-
