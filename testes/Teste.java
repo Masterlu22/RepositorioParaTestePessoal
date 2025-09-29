@@ -16,4 +16,12 @@ public class Teste {
         assertTrue(Calculadora.verificaValor(5));
         assertFalse(Calculadora.verificaValor(-2));
     }
+
+    //retorna true se o número for par
+    @Test
+    public void verificaPar(){
+        assertTrue(Calculadora.verificaValor(4));
+        assertFalse(Calculadora.verificaValor(3));
+    }
+
 }
